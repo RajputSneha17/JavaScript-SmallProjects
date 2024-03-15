@@ -1,0 +1,12 @@
+let studentsMarks = [85,97,44,37,76,60];
+
+let sum = 0;
+
+for (let val of studentsMarks) {
+    sum += val;
+
+}
+
+let avg = sum / studentsMarks.length;
+
+console.log(`avg marks of the class = ${avg}`);
