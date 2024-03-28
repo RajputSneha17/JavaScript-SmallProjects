@@ -1,0 +1,67 @@
+HTML ----------
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Hello JavaScript</h2>
+    <div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div>
+    <div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div><div class="Box">first div</div>
+    <div class="Box">second div</div>
+    <div class="Box">third div</div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+CSS--------------
+
+.Box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  background-color: pink;
+}
+
+
+
+
+
+
+JavaScript--------------
+
+let divs = document.querySelectorAll(".Box");
+let idx = 1;
+for (div of divs){
+    div.innerText = `New Unique Value  ${idx}`;
+    idx++;
+}
+
